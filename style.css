@@ -1,0 +1,158 @@
+ body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+      background-color: black;
+  }
+  h1 {color: white;} 
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: white;
+      font-weight: 600;
+      margin-bottom: 10px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: white;
+      font-weight: 400;
+      margin-bottom: 10px;
+  }
+
+  .bg-primario{background-color: black;}
+  .bg-secundario{background-color: black;}
+  .bg-final{background-color: white;}
+  .bg-green{background-color: #00b300}
+  .txt-primario{color:#FDB060;}
+  .txt-secundario{color:#BA3E00;}
+  .border-yellow{border-style: solid; border-width: 2px; border-right: 4px solid #FFCA28; border-left: 4px solid #FFCA28; border-color:#FFCA28;}
+
+  #logo-principal {
+    margin-right:0px!important;
+    margin-left:10px!important;
+  }
+  .banner{padding-bottom: 60px;}
+  #banner02{display: none;}
+
+  /*Menú*/
+  .bg-dark {background-color: black!important;}
+  .navbar {
+      color: black!important;
+      margin-bottom: 0;
+      opacity:1;
+      font-size: 15px !important;
+      line-height: 4 !important;
+      letter-spacing: 4px;
+      font-family: Montserrat, sans-serif;
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      text-align: center!important;
+      top: 0;
+      z-index: 99999;
+      padding: 0rem 0rem!important;
+  }
+  .navbar-nav {width: 100%!important; text-align: center!important;}
+  .navbar-toggler{color: #880e4f;}
+  .navbar-toggler-icon {color: #880e4f;background-color: white;}
+  a {color: white; text-align: center;}
+  a:hover, a:active {color: white;}
+
+  li.nav-item {padding: 15px;}
+  li.nav-item:hover {
+        background-color: #BA3E00;
+        transform:scale(1.20);
+        text-decoration-line: none;
+  }
+  li.nav-item:active{
+    background-color: #FDB060;
+    transform:scale(1);
+    text-decoration-line: none;
+  }
+
+  .navbar-header {
+      position: fixed;
+      top: 0;
+      width: 100%;}
+
+  /*General*/
+  .container-fluid{padding: 60px!important; padding-top: 120px!important; padding-bottom: 100px!important}
+  .row{margin-right: 0px; margin-left: 0px;}
+  .icon{
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+    margin-bottom: 20px;}
+  .iconHs{
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+  }
+  .icon-contacto{
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+    margin-bottom: 15px;
+    margin-right: 10px;}
+
+  /*Panel de fotos*/
+  #something {padding-right: 0px!important; padding-left: 0px!important;}
+  .panel{padding-right: 0px!important; padding-left: 0px!important;} 
+  
+
+  /*Preguntas frecuentes*/
+  .pregunta-frecuente{padding-top:30px; padding-right: 30px; padding-left: 30px;}
+  /*Mapa de ubicación*/
+  .map{padding-left: 0px!important; padding-right: 0px!important;}
+
+  /*Tabla de precios*/
+  table{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+
+ /*Boton de What´s App*/ 
+  .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:10;
+}
+.my-float{margin-top:16px;}
+
+
+/*Firma*/
+.firma{color:black;}
+.firma:hover{color:blue;}
+  @media screen and (max-width: 768px) {
+    .col-sm-3 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .container-fluid{padding: 60px!important;}
+    #banner01{display: none;}
+    #banner02{display: initial;}
+    h4.txt-white.text-left{text-align: center!important;}
+    div.col-sm-3{margin: 0px; }
+    p.txt-white{margin-bottom: 0px;}
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+  @media screen and (max-width: 991.50px){
+    #img-nube{width: 50%!important;}
+  }
